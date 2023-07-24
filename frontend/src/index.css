@@ -1,0 +1,128 @@
+@font-face {
+	font-family: "Rubik-Regular";
+	src: local("Rubik-Regular"),
+		url("./public/fonts/Rubik-Regular.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Rubik-Medium";
+	src: local("Rubik-Medium"),
+		url("./public/fonts/Rubik-Medium.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Rubik-SemiBold";
+	src: local("Rubik-SemiBold"),
+		url("./public/fonts/Rubik-SemiBold.ttf") format("truetype");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Rubik-Bold";
+	src: local("Rubik-Bold"),
+		url("./public/fonts/Rubik-Bold.ttf") format("truetype");
+	font-weight: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Rubik-Regular;
+}
+
+.avoid__focus:focus-visible {
+	outline: none;
+}
+
+.active {
+	color: #fff !important;
+	background-color: #246bfd;
+	font-weight: bold;
+}
+
+.navlink__item {
+	align-items: center;
+	font-family: Rubik-Regular !important;
+	font-size: 18px;
+	border-radius: 5px;
+	padding: 3.5px 10px 3.5px 10px;
+	margin: 2.5px 0;
+}
+
+.navlink__item:hover {
+	color: #fff !important;
+	background-color: #246bfd;
+	font-weight: bold;
+}
+
+.navlink__item:active {
+	color: #fff !important;
+	background-color: #246bfd;
+	font-weight: bold;
+}
+
+.navlink-text {
+	margin-left: 6px;
+}
+
+.blue__button {
+	background-color: #246bfd !important;
+	color: #fff;
+}
+
+.blue__button:hover {
+	color: #246bfd !important;
+	background-color: #fff !important;
+	border: 2px solid #246bfd !important;
+}
+
+.red__button {
+	background-color: red !important;
+	color: #fff;
+}
+
+.red__button:hover{
+	color: red !important;
+	background-color: #fff !important;
+	border: 2px solid red !important;
+}
+
+.index__container {
+	flex-direction: column;
+	align-items: center;
+	padding: 0 20px 0 20px;
+}
+
+.streak__container {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+}
+
+.streak {
+	font-size: 25px;
+}
+
+.streak__day__count {
+	font-family: Rubik-SemiBold;
+	margin-left: 5px;
+	font-size: 40px;
+}
+
+.bold__text {
+	font-weight: bold;
+}
+
+.setting__container {
+	padding: 15px;
+}
+
+.setting__item {
+	font-size: 18px;
+	justify-content: space-between;
+	align-items: center;
+}
